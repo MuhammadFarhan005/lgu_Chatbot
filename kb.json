@@ -1,0 +1,56 @@
+[
+  {
+    "intent":"apply_start",
+    "question":"How can I apply?",
+    "answer":"To apply to Lahore Garrison University (LGU), visit the official admissions portal at https://admissions.lgu.edu.pk/, register an account, complete the online application form for your chosen program, upload required documents, pay the application processing fee, and submit. Keep your application ID for future reference.",
+    "source":"https://admissions.lgu.edu.pk/"
+  },
+  {
+    "intent":"documents_needed",
+    "question":"What documents are required?",
+    "answer":"Commonly required documents: CNIC/B-form or passport, academic transcripts (Matric/Intermediate/Bachelor as applicable), recent passport-size photograph, domicile (if applicable), character/migration certificate, and any program-specific documents (portfolio, certificates). Upload scanned copies on the admissions portal.",
+    "source":"https://lgu.edu.pk/admissions/"
+  },
+  {
+    "intent":"fees_query",
+    "question":"What are the fees?",
+    "answer":"LGU fee components include application/processing fee, admission/registration fee, tuition fee (per semester or per credit hour), security deposit (refundable per rules), examination fees, and any hostel or lab charges. Exact numeric amounts and schedules are published on https://lgu.edu.pk/fee-structure/ — please check that page for program-specific figures.",
+    "source":"https://lgu.edu.pk/fee-structure/"
+  },
+  {
+    "intent":"scholarships",
+    "question":"Do you offer scholarships?",
+    "answer":"LGU offers merit-based scholarships, need-cum-merit assistance, sports/talent scholarships, and sometimes departmental awards. Merit scholarships are often awarded automatically based on merit lists, while need-based awards require an application and supporting documents. See https://lgu.edu.pk/scholarships/ for details and eligibility criteria.",
+    "source":"https://lgu.edu.pk/scholarships/"
+  },
+  {
+    "intent":"merit_list",
+    "question":"When will merit list be out?",
+    "answer":"Merit lists and selection rounds are published on the admissions portal and the university merit page. The selection is usually based on a merit calculation combining academic record and admission test scores where applicable. Check https://lgu.edu.pk/merit-list/ and https://admissions.lgu.edu.pk/ for current lists.",
+    "source":"https://lgu.edu.pk/merit-list/"
+  },
+  {
+    "intent":"admission_test",
+    "question":"What is the admission test format?",
+    "answer":"Admission test formats vary by program. Common formats include MCQs and written subject questions. Duration, syllabus, and permitted/prohibited items are listed on the admission test guidelines page. Bring your printed admit card and original CNIC/passport. See https://lgu.edu.pk/admission-test-guidelines/ for full rules.",
+    "source":"https://lgu.edu.pk/admission-test-guidelines/"
+  },
+  {
+    "intent":"roadmap",
+    "question":"What is the admissions roadmap?",
+    "answer":"Typical roadmap: admission announcement → application period (online) → submission & fee payment → admit card issuance (if test) → admission test (if applicable) → merit lists published → offer acceptance & fee payment → registration. Exact dates and visual roadmap are available at https://lgu.edu.pk/all-road-map/ and on the admissions portal.",
+    "source":"https://lgu.edu.pk/all-road-map/"
+  },
+  {
+    "intent":"contact_admissions",
+    "question":"How do I contact admissions?",
+    "answer":"For official contact details (phone, email, office hours), please consult the admissions page and portal: https://lgu.edu.pk/admissions/ and https://admissions.lgu.edu.pk/. If you need help with an application ID or a document issue, mention your application ID when contacting them.",
+    "source":"https://lgu.edu.pk/admissions/"
+  },
+  {
+    "intent":"fallback_escalate",
+    "question":"I need help with something else",
+    "answer":"I'm sorry — I don't have that specific information. Would you like me to provide the admissions office contact details so you can speak with a human officer? Check https://lgu.edu.pk/admissions/ for contact links and the official portal for case-specific help.",
+    "source":"https://lgu.edu.pk/admissions/"
+  }
+]

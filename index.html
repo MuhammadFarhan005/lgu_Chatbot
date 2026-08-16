@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LGU Admissions Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="chat-widget" class="closed theme-light">
+    <button id="chat-toggle" aria-label="Open chat" title="Open chat">
+      <span class="chat-icon">💬</span>
+    </button>
+
+    <div id="chat-panel" role="dialog" aria-modal="false" aria-hidden="true">
+      <header class="chat-header">
+        <div>
+          <h3>LGU Admissions Assistant</h3>
+          <p class="sub">Ask about applications, fees, scholarships & tests</p>
+        </div>
+        <div class="header-actions">
+          <button id="theme-toggle" title="Toggle theme">🌗</button>
+          <button id="close-chat" aria-label="Close chat">✕</button>
+        </div>
+      </header>
+
+      <main id="messages" class="messages" aria-live="polite"></main>
+
+      <footer class="chat-footer">
+        <div class="quick-buttons">
+          <button data-q="How can I apply?">Apply</button>
+          <button data-q="What are the fees?">Fees</button>
+          <button data-q="Do you offer scholarships?">Scholarships</button>
+          <button data-q="What is the admission test format?">Admission Test</button>
+        </div>
+        <form id="chat-form">
+          <input id="chat-input" autocomplete="off" placeholder="Type your question here..." />
+          <button type="submit">Send</button>
+        </form>
+      </footer>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
